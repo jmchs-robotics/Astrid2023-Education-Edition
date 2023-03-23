@@ -195,5 +195,4 @@ public class Drivetrain extends SubsystemBase {
 		left2.setSelectedSensorPosition(0, 0, 20);
 		right2.setSelectedSensorPosition(0, 0, 20);
 	}
-
 }
