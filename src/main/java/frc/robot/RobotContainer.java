@@ -92,7 +92,7 @@ public class RobotContainer {
             new ExtendHook(m_Hook)
         );
             
-        driveRB.whenHeld(
+        driveRB.whileTrue(
             new RetractHook(m_Hook)
         );
 
